@@ -102,6 +102,10 @@ color: #14eb96
   background-size: cover;
   height: 400px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-heading,
@@ -109,13 +113,16 @@ color: #14eb96
   font-family: 'Roboto Condensed' sans-serif;
   color: white;
   text-align: center;
+  display: flex;
 }
 
 .hero-heading{
   font-weight: bold;
   font-size: 42px;
+  padding: 15px;
 }
 
 .subheading{
-  
+  text-transform: uppercase;
+  font-size: 21px;
 }

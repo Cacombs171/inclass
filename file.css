@@ -95,3 +95,27 @@ color: #14eb96
   text-decoration: underline;
   color: white;
 }
+
+.hero{
+  background-image: url('images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.hero-heading,
+.subheading{
+  font-family: 'Roboto Condensed' sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.hero-heading{
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.subheading{
+  
+}

@@ -127,6 +127,14 @@ background-color: #14e9b6
   width: 90%;
   margin: 0 auto;
   padding: 80px 0 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.the-abs .content-header,
+.mono .the-abs,
+.the-abs .copy{
+  display: flex;
 }
 
 .content-header{
@@ -148,4 +156,24 @@ background-color: #14e9b6
   font-size: 16px;
   line-height: 1.2;
   color: #021d2c;
+}
+
+.flex-row{
+  display: flex;
+}
+
+.the-abs .content-header{
+  margin: 15px 0;
+}
+
+.the-abs .mono{
+  margin: 15px 0;
+}
+
+.flex-row .copy{
+  margin: 15px 30px;
+}
+
+.flex-row .copy:first-of-type{
+  margin-left: 0;
 }
